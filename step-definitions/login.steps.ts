@@ -3,6 +3,7 @@ import { setDefaultTimeout } from '@cucumber/cucumber';
 
 import { chromium, Browser, Page } from '@playwright/test';
 import { LoginPage } from '../Pages/LoginPage';
+import { CompanyPage } from '../Pages/CompanyPage';
 
 setDefaultTimeout(50000);
 
@@ -42,4 +43,34 @@ Then('the login should be successful', async function () {
 
   console.log('Login completed');
 
+});
+
+When('I select a company', async function () {
+  const companyPage = new CompanyPage(page);
+
+  await companyPage.selectCompany();
+});
+
+When('I click OK', async function () {
+  const companyPage = new CompanyPage(page);
+
+  await companyPage.clickOk();
+});
+
+When('I click System', async function () {
+  const companyPage = new CompanyPage(page);
+
+  await companyPage.clickSystem();
+});
+
+When('I click Company', async function () {
+  const companyPage = new CompanyPage(page);
+
+  await companyPage.clickCompany();
+});
+
+When('I click Add', async function () {
+  const companyPage = new CompanyPage(page);
+
+  await companyPage.clickAdd();
 });
