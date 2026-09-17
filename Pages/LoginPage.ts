@@ -6,6 +6,7 @@ export class LoginPage {
 
   email = '//input[@id="loginEmail"]';
 
+  
   password = '//input[@id="loginPwd"]';
 
   loginButton = '//button[@type="submit"]';

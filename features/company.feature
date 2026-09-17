@@ -11,3 +11,9 @@ Feature: Smart Assets Pro Company
     And I click System
     And I click Company
     And I click Add
+
+# Scenario: Login and add company
+#   Given I login with email and password and click the login button
+#   And I select a company and click OK
+#   And I click System and Company
+#   And I click Add
