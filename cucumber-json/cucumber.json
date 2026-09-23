@@ -1,0 +1,228 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "smart-assets-pro-company;login-and-add-company",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login and add company",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5456703599
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the login page",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8106061900
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter the email",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23199699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter the password",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55611000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the login button",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2811373799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I select a company",
+            "match": {
+              "location": "step-definitions\\company.steps.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48647100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click OK",
+            "match": {
+              "location": "step-definitions\\company.steps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 737347300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click System",
+            "match": {
+              "location": "step-definitions\\company.steps.ts:18"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 479312500
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click Company",
+            "match": {
+              "location": "step-definitions\\company.steps.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 403491699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click Add",
+            "match": {
+              "location": "step-definitions\\company.steps.ts:26"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "smart-assets-pro-company",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Smart Assets Pro Company",
+    "tags": [],
+    "uri": "features\\company.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4757951900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the login page",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6473877000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter the email",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 13041300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter the password",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 45886099
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click the login button",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:38"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 431499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the login should be successful",
+            "match": {
+              "location": "step-definitions\\login.steps.ts:44"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Page",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

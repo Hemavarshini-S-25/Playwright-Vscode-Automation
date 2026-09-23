@@ -4,6 +4,10 @@ module.exports = {
     require: [
       'step-definitions/**/*.ts'],
     paths: ['features/**/*.feature'],
+    format: [
+     'json:cucumber-json/cucumber.json',
+     'progress'
+    ]
   },
 };
 
