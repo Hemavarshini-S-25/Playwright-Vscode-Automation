@@ -12,59 +12,59 @@
           {
             "result": {
               "status": "passed",
-              "duration": 5456703599
+              "duration": 4313546300
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
             "name": "I open the login page",
             "match": {
-              "location": "step-definitions\\login.steps.ts:15"
+              "location": "step-definitions\\login.steps.ts:16"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 8106061900
+              "duration": 3902388700
             },
             "arguments": [],
             "keyword": "When ",
             "line": 6,
             "name": "I enter the email",
             "match": {
-              "location": "step-definitions\\login.steps.ts:26"
+              "location": "step-definitions\\login.steps.ts:36"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 23199699
+              "duration": 40735800
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
             "name": "I enter the password",
             "match": {
-              "location": "step-definitions\\login.steps.ts:32"
+              "location": "step-definitions\\login.steps.ts:46"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 55611000
+              "duration": 129618500
             },
             "arguments": [],
             "keyword": "And ",
             "line": 8,
             "name": "I click the login button",
             "match": {
-              "location": "step-definitions\\login.steps.ts:38"
+              "location": "step-definitions\\login.steps.ts:55"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 2811373799
+              "duration": 2138794799
             },
             "arguments": [],
             "keyword": "And ",
@@ -77,25 +77,12 @@
           {
             "result": {
               "status": "passed",
-              "duration": 48647100
+              "duration": 92897700
             },
             "arguments": [],
             "keyword": "And ",
             "line": 10,
             "name": "I click OK",
-            "match": {
-              "location": "step-definitions\\company.steps.ts:14"
-            }
-          },
-          {
-            "result": {
-              "status": "passed",
-              "duration": 737347300
-            },
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "I click System",
             "match": {
               "location": "step-definitions\\company.steps.ts:18"
             }
@@ -103,27 +90,40 @@
           {
             "result": {
               "status": "passed",
-              "duration": 479312500
+              "duration": 1007214899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click System",
+            "match": {
+              "location": "step-definitions\\company.steps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 852602899
             },
             "arguments": [],
             "keyword": "And ",
             "line": 12,
             "name": "I click Company",
             "match": {
-              "location": "step-definitions\\company.steps.ts:22"
+              "location": "step-definitions\\company.steps.ts:31"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 403491699
+              "duration": 805228499
             },
             "arguments": [],
             "keyword": "And ",
             "line": 13,
             "name": "I click Add",
             "match": {
-              "location": "step-definitions\\company.steps.ts:26"
+              "location": "step-definitions\\company.steps.ts:37"
             }
           }
         ],
@@ -151,66 +151,66 @@
           {
             "result": {
               "status": "passed",
-              "duration": 4757951900
+              "duration": 2102697000
             },
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
             "name": "I open the login page",
             "match": {
-              "location": "step-definitions\\login.steps.ts:15"
+              "location": "step-definitions\\login.steps.ts:16"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 6473877000
+              "duration": 2244896500
             },
             "arguments": [],
             "keyword": "When ",
             "line": 5,
             "name": "I enter the email",
             "match": {
-              "location": "step-definitions\\login.steps.ts:26"
+              "location": "step-definitions\\login.steps.ts:36"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 13041300
+              "duration": 74828300
             },
             "arguments": [],
             "keyword": "And ",
             "line": 6,
             "name": "I enter the password",
             "match": {
-              "location": "step-definitions\\login.steps.ts:32"
+              "location": "step-definitions\\login.steps.ts:46"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 45886099
+              "duration": 216556100
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
             "name": "I click the login button",
             "match": {
-              "location": "step-definitions\\login.steps.ts:38"
+              "location": "step-definitions\\login.steps.ts:55"
             }
           },
           {
             "result": {
               "status": "passed",
-              "duration": 431499
+              "duration": 1161200
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
             "name": "the login should be successful",
             "match": {
-              "location": "step-definitions\\login.steps.ts:44"
+              "location": "step-definitions\\login.steps.ts:65"
             }
           }
         ],
